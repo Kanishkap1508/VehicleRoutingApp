@@ -1,0 +1,53 @@
+nav {
+    background-color: var(--grey);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 11vw;
+}
+
+nav div img{
+    width: 14%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 29vw;
+    list-style-type: none;
+}
+
+nav ul li{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li button{
+    border-radius: 1.2vw;
+    padding: 0.7vw 1.6vw;
+    border: none;
+    color: white;
+    font-size: 1vw;
+    margin-left: 1vw;
+}
+
+nav ul li #Signup{
+    background-color: #ce2121;
+
+}
+
+nav ul li #Login{
+    background-color: #030303;
+}
+
+nav ul li #img1{
+    width: 33%;
+}
+
+nav ul li #img2{
+    width: 25%;
+    margin-right: 0.5vw;
+}
+
